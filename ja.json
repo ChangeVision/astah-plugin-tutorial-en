@@ -1,0 +1,38 @@
+{
+  "embeddedFonts" :
+  [[
+      "VL-Gothic-Regular.ttf",
+      "VL-PGothic-Regular.ttf"
+  ]],
+   "fontsAlias" : {
+   "stdFont": "VL-PGothic-Regular",
+   "stdBold": "VL-PGothic-Regular",
+   "stdItalic": "VL-PGothic-Regular",
+   "stdBoldItalic": "VL-PGothic-Regular",
+   "stdMono": "VL-Gothic-Regular",
+   "stdMonoBold": "VL-Gothic-Regular",
+   "stdMonoItalic": "VL-Gothic-Regular",
+   "stdMonoBoldItalic": "VL-Gothic-Regular"
+   },
+   "styles" : [
+     ["base", {
+      "wordWrap": "CJK"
+     }],
+     ["literal", {
+      "wordWrap": "None"
+     }],
+     ["right", {
+         "parent": "bodytext",
+         "alignment": "right"
+     }],
+     ["centered", {
+         "parent": "bodytext",
+         "alignment": "center"
+     }],
+     ["headertable" , {
+     "parent" : "table",
+     "colWidths": ["20%","60%","20%"],
+     "commands": []
+     }]
+   ]
+}
