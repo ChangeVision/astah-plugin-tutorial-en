@@ -28,9 +28,9 @@ Below is a table of software and its version that are used in this tutorial. You
 ==================== ======================================
 Software              Version
 ==================== ======================================
-OS                    Windows7,Ubuntu Linux 11.10
-Java                  Oracle JDK 7
-Astah                 6.7(Professional, UML, Community)
+OS                    Windows10,Ubuntu Linux 11.10
+Java                  AdoptOpenJDK 8
+astah*                6.8(Professional, UML, Community),1.1(SysML),5.0(System Safety)
 Eclipse               3.7.1
 IntelliJ IDEA         11.1
 ==================== ======================================
