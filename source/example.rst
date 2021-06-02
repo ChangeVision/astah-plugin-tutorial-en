@@ -33,7 +33,7 @@ Getting model information
 
 .. astah*のモデル情報を取得するために、astah* APIを活用してみましょう。astah* APIとは、astah*のモデルデータを活用するアプリケーションを開発するためのJavaインターフェース群です。astah* APIの詳細については、本体に付属するastah* API利用ガイドを参照してください。
 
-In order to get model information, let's use Astah API. Astah API is a group of Java interfaces for reading/writing Astah which can be used to count number of classes in this case. Please refer to Astah API User guide which you can find in Astah Install folder for details about Astah API.
+In order to get model information, let's use Astah API. Astah API is a group of Java interfaces for reading/writing Astah which can be used to count number of classes in this case. Please refer to `Astah API User guide <http://members.change-vision.com/javadoc/astah-api/8_2_0/api/en/doc/index.html>` _ for details about Astah API.
 
 .. これから書くコードでは、ProjectAccessorから現在開いているastah*モデルのルートモデルを取得し、再帰的にすべてのクラスを取得します。それではクラスの総数をメッセージダイアログに表示するようにHelloWorldプラグインを修正してみましょう。
 

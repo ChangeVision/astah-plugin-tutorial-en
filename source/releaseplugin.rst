@@ -22,5 +22,6 @@ Edition             Value
 All editions       blank, all, *
 professional       pro, professional
 UML                uml, UML
+System Safety      safety, SystemSafety ( pro, uml, sysml work as compatible versions )
 community          com, Community
 ================== =======================
