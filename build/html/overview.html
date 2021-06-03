@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Astah Plug-in architecture &#8212; Astah Plug-in Tutorial 1.1 documentation</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Let’s set up the development environment for Astah Plug-ins" href="devenv.html" />
+    <link rel="prev" title="Astah Plug-in Development Tutorial" href="index.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="devenv.html" title="Let’s set up the development environment for Astah Plug-ins"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Astah Plug-in Development Tutorial"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Astah Plug-in Tutorial 1.1 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Astah Plug-in architecture</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="astah-plug-in-architecture">
+<h1>Astah Plug-in architecture<a class="headerlink" href="#astah-plug-in-architecture" title="Permalink to this headline">¶</a></h1>
+<div class="figure align-default">
+<a class="reference internal image-reference" href="_images/archtecture.png"><img alt="astah* plugin archtecture" src="_images/archtecture.png" style="width: 600px;" /></a>
+</div>
+<p>Astah loads all the Plug-ins that are stored in “plugin” folder in Astah’s Install folder when you launch Astah. The Plug-in files need to be .jar format and also to be OSGi bundle because Astah’s Plug-ins architecture uses OSGi <a class="footnote-reference brackets" href="#osgi" id="id1">1</a> Runtime.</p>
+<p>We’ve prepared SDK <a class="footnote-reference brackets" href="#develop" id="id2">2</a> for you to develop Astah Plug-ins with which automatically packages OSGi bundle and also allows you to use Plug-ins on Astah without storing them in the “plugin” folder in Astah Install folder during your development of Plug-ins. Now let’s set up the development environment for Astah Plug-ins.</p>
+<p>You can find all the samples used in this tutorial in examples/tutorialsamples. Please refer to them if your Plug-in did not work on Astah.</p>
+<p class="rubric">Footnotes</p>
+<dl class="footnote brackets">
+<dt class="label" id="osgi"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p><a class="reference external" href="http://www.osgi.org/">http://www.osgi.org/</a></p>
+</dd>
+<dt class="label" id="develop"><span class="brackets"><a class="fn-backref" href="#id2">2</a></span></dt>
+<dd><p><a class="reference external" href="http://astah.net/features/plugins#develop">http://astah.net/features/plugins#develop</a></p>
+</dd>
+</dl>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Astah Plug-in Development Tutorial</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="devenv.html"
+                        title="next chapter">Let’s set up the development environment for Astah Plug-ins</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/overview.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="devenv.html" title="Let’s set up the development environment for Astah Plug-ins"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Astah Plug-in Development Tutorial"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Astah Plug-in Tutorial 1.1 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Astah Plug-in architecture</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2013, Change Vision,inc.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.5.4.
+    </div>
+  </body>
+</html>
