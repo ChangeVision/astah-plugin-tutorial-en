@@ -24,16 +24,18 @@ Prerequisites
 -------------------------------------------------------
 
 Below is a table of software and its version that are used in this tutorial. You can use other versions of software, but please note that some settings or appearance of dialogs may look different than ones we have in this tutorial.
+In addition, only the environment for test is described here, For the operating environment of each product, please refer to the system requirements for the product.
 
 ==================== ======================================
 Software              Version
 ==================== ======================================
-OS                    Windows10,Ubuntu Linux 11.10 (astah* System Safety is unsupported)
+OS                    Windows11,Ubuntu Linux 22.04 LTS(Some editions are unsupported)
 Java                  AdoptOpenJDK 8
-astah*                6.8(Professional, UML, Community),1.1(SysML),6.0(System Safety)
-Eclipse               3.7.1
-IntelliJ IDEA         11.1
+astah*                8.5(Professional, UML, Community),8.0(SysML),6.0(System Safety)
+Eclipse               2022-09
+IntelliJ IDEA         2022.2.3 (Community)
 ==================== ======================================
+
 
 TOC:
 
