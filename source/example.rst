@@ -60,6 +60,7 @@ Now, modify the plugin.xml with this CountClassAction class.
 At last, add the label for this menu in plugin.properties ::
 
  count_classes=Count classes(C)
+ sample_menu=SampleMenu
 
 .. これで､クラスの数をカウント結果を表示できます。
   

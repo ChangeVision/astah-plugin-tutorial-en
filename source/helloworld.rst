@@ -19,18 +19,25 @@ First, create a new project. Move to the directory where you want to create a Pl
 
  > astah-generate-project
 
+.. astah* SysMLのプラグインプロジェクトを新規作成するには、次のコマンドを入力しましょう。 ::
+
+If you are using Astah SysML ::
+
+ > astah-sysml-generate-project
+ 
 .. 続いてgroupId、artifactId、version、パッケージを指定してください。
 
 Next, specify the group id, artifact id, version and etc.
 
-.. ==================== ============================================================
-..  Parameter            Description
-.. ==================== ============================================================
-.. groupId               プロジェクトの識別名を指定します。一般的には、プロジェクトのルートパッケージ名を指定します。
-.. artifactId            プロジェクト名を指定します。生成されるフォルダ名やjarファイルの名前に使用されます。
-.. version               プロジェクトのバージョンを指定します。
-.. package               プロジェクトのパッケージ名を指定します。groupIdと同じか、下層のパッケージ名を指定してください。
-.. ==================== ============================================================
+==================== ============================================================
+ Parameter            Description
+==================== ============================================================
+groupId               Specify the distinguished name of the project. In general, the name is the root package name of your project.
+artifactId            Specify a project name used for generated folder names and jar file names.
+version               Specify the version of the project.
+package               Specify the package name of the project. The package name is the same as groupId or the name of nested package.
+==================== ============================================================
+
 
 .. figure:: images/astah-generate-project.png
    :width: 640
@@ -167,18 +174,6 @@ Open Eclipse Preference from [Window] - [Preferences] and then select [Maven] - 
 .. figure:: images/Eclipse_settings.png
    :width: 573
    :alt: Eclipse Preference Page
-
-
-.. Eclipseで読み込むための設定を生成する
-
-Generating config to load classpath for Eclipse
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. 次にプラグインプロジェクトをEclipseへインポートする前に、プラグインプロジェクトのディレクトリに移動し、環境変数M2_HOMEをASDK_HOMEにし、次のコマンドを実行します｡ ::
-
-Now, before importing the plug-in project to Eclipse, move to the working directory of Plug-in Project, set the environment variables of M2_HOME to ASDK_HOME and then run the command below. ::
-
-  > astah-mvn eclipse:eclipse
 
 .. これでEclipse上に読み込む準備ができたので、Eclipseのプロジェクトとしてインポートしてください。
 
